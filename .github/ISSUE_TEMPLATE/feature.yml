@@ -18,6 +18,10 @@ body:
       required: true
   - type: textarea
     attributes:
+      label: Links
+      description: 관련 링크를 첨부해주세요
+  - type: textarea
+    attributes:
       label: More
       description: 더 하고싶은 말이 있다면 작성해주세요
   - type: checkboxes
