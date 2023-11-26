@@ -4,7 +4,27 @@ title: "[Bug Report]: "
 body:
   - type: textarea
     attributes:
-      label: 자 템플릿 하나를 망쳐보겠습니다
-      description: 메롱~
+      label: Description
+      description: 어떤 버그가 발생했는지 설명해주세요
       placeholder: A를 예상했는데 B로 동작하였습니다
-
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Environment
+      description: 버그가 발생환 환경과 재현 방법을 알려주세요
+      placeholder: iPhone15 ios 17.1.1
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: More
+      description: 더 하고싶은 말 및 자료를 첨부해주세요
+  - type: checkboxes
+    attributes:
+      label: Assignees and Labels
+      description: Assignee와 Labels를 추가해주세요
+      options:
+        - label: 모두 완료했습니다
+          required: true
+          
