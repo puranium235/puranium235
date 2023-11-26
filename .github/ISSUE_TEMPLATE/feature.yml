@@ -1,7 +1,7 @@
 name: Feature Request
 description: 기능 요청 또는 개선
 title: "[feature]: "
-labels: 
+labels: ["feature"]
 body:
   - type: markdown
     attributes: |
@@ -12,6 +12,14 @@ body:
       label: Description
       description: 어떤 기능이 왜 필요한지 설명해주세요!
       placeholder: 기능에 대한 설명
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      description: 해야할 일들을 적어주세요
+      placeholder: [ ] 사용자 기능 추가
     validations:
       required: true
   - type: textarea
