@@ -15,20 +15,12 @@ body:
     validations:
       required: true
   - type: textarea
-    id: tasks
-    attributes:
-      label: Tasks
-      description: 해야할 일들을 적어주세요
-      placeholder: [ ] 사용자 기능 추가
-    validations:
-      required: true
-  - type: textarea
     id: more
     attributes:
       label: More
       description: 더 하고싶은 말이 있다면 작성해주세요
   - type: checkboxes
-    id: labels
+    id: confirm
     attributes:
       label: Assignees and Labels
       description: Assignee와 Labels를 추가해주세요
