@@ -16,7 +16,7 @@ body:
       placeholder: checkbox를 이용해주세요
     validations:
       required: true
-        - type: textarea
+  - type: textarea
     attributes:
       label: Links
       description: 관련 링크를 첨부해주세요
