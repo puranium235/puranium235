@@ -17,7 +17,7 @@ body:
   - type: textarea
     id: tasks
     attributes:
-      label: Tasks
+      label: 대체 뭐가 불만이야 이놈은
       description: 해야할 일들을 적어주세요
       placeholder: [ ] 사용자 기능 추가
     validations:
