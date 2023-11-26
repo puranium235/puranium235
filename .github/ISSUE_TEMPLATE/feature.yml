@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes: 
       value: |
-      최대한 쉽고 자세하게 입력해주세요!
+        최대한 쉽고 자세하게 입력해주세요!
   - type: textarea
     id: feature
     attributes:
