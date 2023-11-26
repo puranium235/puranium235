@@ -15,15 +15,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: tasks
-    attributes:
-      value: 이게 불만인거야?
-      label: Tasks
-      description: 해야할 일들을 적어주세요
-      placeholder: [ ] 사용자 기능 추가
-    validations:
-      required: true
-  - type: textarea
     id: more
     attributes:
       label: More
