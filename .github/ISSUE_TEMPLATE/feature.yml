@@ -18,6 +18,7 @@ body:
       required: false
   - type: textarea
     id: what-happened
+    attributes:
       label: id가 what happened입니다
       value: 미리 입력되어있는거 같음?
     validations:
