@@ -21,7 +21,7 @@ body:
       description: 해야할 일들을 적어주세요
       placeholder: [ ] 사용자 기능 추가
     validations:
-      requitre: true
+      required: true
   - type: textarea
     id: more
     attributes:
