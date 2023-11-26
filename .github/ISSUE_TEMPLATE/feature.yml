@@ -1,48 +1,37 @@
 name: Feature Request
-description: 기능 요청사항을 입력해주세요
+description: 기능 요청 또는 개선
 title: "[feature]: "
-labels: ["feature", "frontent"]
-assignees:
-  - puranium235
+labels: 
 body:
   - type: markdown
-    attributes:
-      value: 뭐라고 입력하면 될까요?
-  - type: input
-    id: contact
-    attributes:
-      label: label 요소
-      description: description 요소
-      placeholder: placeholder 요소
-    validations:
-      required: false
+    attributes: |
+      최대한 쉽고 자세하게 입력해주세요!
   - type: textarea
-    id: what-happened
+    id: description
     attributes:
-      label: id가 what happened입니다
-      value: 미리 입력되어있는거 같음?
+      label: Description
+      description: 어떤 기능이 왜 필요한지 설명해주세요!
+      placeholder: 기능에 대한 설명
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: dropdown 메뉴
-      multiple: true
-      options:
-        - 1번 메뉴
-        - 2번 메뉴
-        - 언제는 -를 쓰고 언제는 안쓰는겨
   - type: textarea
-    id: logs
+    id: tasks
     attributes:
-      label: log output
-      description: copy and paste
-      render: shell
+      label: Tasks
+      description: 해야할 일들을 적어주세요
+      placeholder: [ ] 사용자 기능 추가
+    validations:
+      requitre: true
+  - type: textarea
+    id: more
+    attributes:
+      label: More
+      description: 더 하고싶은 말이 있다면 작성해주세요
   - type: checkboxes
-    id: terms
+    id: labels
     attributes:
-      label: ???
-      description: agree
+      label: Assignees and Labels
+      description: Assignee와 Labels를 추가해주세요
       options:
-        - label: I agree
+        - label: 모두 완료했습니다
           required: true
