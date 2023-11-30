@@ -1,5 +1,6 @@
 name: Bug Report
 description: 버그 발생
+label: bug
 title: "[Bug Report]: "
 body:
   - type: textarea
