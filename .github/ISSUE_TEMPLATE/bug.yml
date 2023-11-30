@@ -1,6 +1,7 @@
 name: Bug Report
 description: 버그 발생
 labels: bug
+projects: Conventions
 title: "[Bug Report]: "
 body:
   - type: textarea
